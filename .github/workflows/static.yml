@@ -1,10 +1,11 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy Portfolio to GitHub Pages
 
 on:
   push:
     branches: ["main"]
-
+    paths:
+      - "Portfolio-Website/**"
+      - ".github/workflows/static.yml"
   workflow_dispatch:
 
 permissions:
@@ -34,7 +35,7 @@ jobs:
       - name: Upload Portfolio Website
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './Portfolio-Website'
+          path: "./Portfolio-Website"
 
       - name: Deploy to GitHub Pages
         id: deployment
