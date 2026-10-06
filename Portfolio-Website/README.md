@@ -13,15 +13,7 @@ and GitHub Pages deployment.
 
 Add your GitHub Pages URL here:
 
-https://YOUR-USERNAME.github.io/Portfolio-Website/
-
----
-
-## GitHub Repository
-
-Add your repository URL here:
-
-https://github.com/YOUR-USERNAME/Portfolio-Website
+https://shreyasharma707.github.io/MERN-Stack-Internship/
 
 ---
 
